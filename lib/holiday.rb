@@ -64,9 +64,9 @@ def all_supplies_in_holidays(holiday_hash)
         puts " #{holiday.to_s.split("_").capitalize}: #{supplies}"
        
       end
-      binding.pry
   end
 end
+      binding.pry
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
